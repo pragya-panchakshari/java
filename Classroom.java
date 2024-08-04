@@ -257,7 +257,7 @@ public class Classroom {
         return false;
     }
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
         list.add(11);
         list.add(15);
@@ -267,5 +267,16 @@ public class Classroom {
         list.add(10);
         int target = 16;
         System.out.println(pairSum2(list, target));
+    }*/
+
+    public static void main(String[] args) {
+        LinkedList<Integer> ll = new LinkedList<>();
+        ll.addLast(1);
+        ll.addLast(2);
+        ll.addFirst(0);
+        System.out.println(ll);
+        ll.removeLast();
+        ll.removeFirst();
+        System.out.println(ll);
     }
 }
